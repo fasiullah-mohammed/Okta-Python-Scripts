@@ -16,7 +16,7 @@ headers = {
 
 data = requests.request("GET", url, data=payload, headers=headers).json()
 print(data)
-with open('hello.json', 'w') as file:
+with open('Apps_list.json', 'w') as file:
     json.dump(data, file)
 
    
