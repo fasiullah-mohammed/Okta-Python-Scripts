@@ -10,7 +10,7 @@ payload = ""
 headers = {
 'Accept': "application/json",
 'Content-Type': "application/json",
-'Authorization': "SSWS "+ "Enter your domain"
+'Authorization': "SSWS "+ "Enter your token"
 
 }
 
